@@ -35,7 +35,7 @@ function App() {
 		<div class="w-screen h-screen bg-gray-700 text-white relative overflow-hidden" style={{
 			"background-image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://api.dujin.org/bing/1920.php)"
 		}}>
-			<SnowCanvas />
+			{date.getMonth() < 3 || date.getMonth() > 10 && <SnowCanvas />}
 
 			<main class="absolute w-50% h-auto top-50% left-50% transform -translate-x-1/2 -translate-y-1/2">
 				<header class="flex flex-col items-center justify-center text-center">
