@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Github",
+        "title": "github",
+        "icon": "fa-brands fa-github",
+        "url": "https://github.com/yamrc"
+    },
+    {
+        "name": "QQ",
+        "title": "qq",
+        "icon": "fa-brands fa-qq",
+        "url": "https://qm.qq.com/q/G7XhtC9RSw"
+    },
+    {
+        "name": "BiliBili",
+        "title": "bilibili",
+        "icon": "fa-brands fa-bilibili",
+        "url": "https://space.bilibili.com/475403704"
+    },
+    {
+        "name": "Steam",
+        "title": "steam",
+        "icon": "fa-brands fa-steam",
+        "url": "https://steamcommunity.com/id/yamrc"
+    },
+    {
+        "name": "Email",
+        "title": "email",
+        "icon": "fa-solid fa-envelope",
+        "url": "mailto:yamrci@outlook.com"
+    }
+]
