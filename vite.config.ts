@@ -4,4 +4,9 @@ import Unocss from 'unocss/vite'
 
 export default defineConfig({
     plugins: [solid(), Unocss()],
+    resolve: {
+        alias: {
+            '@': '/src',
+        },
+    },
 })

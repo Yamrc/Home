@@ -5,7 +5,7 @@ export default defineConfig({
   presets: [presetWind3()],
   preflights: [
     {
-      getCSS: () => 'body{margin:0}',
+      getCSS: () => '*{margin:0;padding:0;} body{overflow:hidden;}',
     },
   ],
 })
